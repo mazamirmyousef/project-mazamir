@@ -1,0 +1,97 @@
+
+
+.test3App1{
+    border-radius: 5px;
+}
+.parentMenu{
+    font-size: 13px;
+    font-weight: 500;
+    color: #d0e5ff;
+}
+.menucol{
+    background-color: #a5a6b1;
+    padding:35px 20px;
+}
+.menucol a{
+    color: white;
+    transition: 0.3s all;
+    font-size: 11px;
+    font-weight: 400;
+}
+.menucol a:hover{
+    color: rgb(24, 24, 24);
+}
+.menucol .menulink {
+    padding: 5px;
+    margin: 5px 0;
+    border-bottom: 1px solid #acadb7;
+    display: inline-block;
+}
+.parentMenu{
+    list-style: none;
+}
+.caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+  
+  .caret::before {
+    content: "\25c0";
+    color: #d9eaff;
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 10px;
+  }
+  
+  .caret-down::before {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);  
+  }
+  
+@media (min-width: 1024px)
+{
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 100%;
+        height: 100%;
+}
+}
+.loginbtn{
+    background-color: #53eab8 !important;
+}
+.logoutbtn{
+    background-color: #de3078f2 !important;
+}
+.row{
+    height: 100%;
+}
+.MuiTableCell-sizeSmall {
+    padding: 7px 15px 7px 15px;
+}
+.searchInput{
+    width: 100%;
+}
+.searchInput input {
+    padding: 12.5px 14px;
+}
+
+.searchInput  .MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(-17px, 14px) scale(1);
+    pointer-events: none;
+}
+.searchInput .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(-14px, -6px) scale(0.75);
+}
+.modal .modal-content .modal-header .close:before {
+    content: "\00d7";
+    font-family: system-ui;
+    color: red;
+    font-size: 26px;
+}
+.searchSection{
+    margin-bottom: 25px;
+}

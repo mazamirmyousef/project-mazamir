@@ -1,0 +1,16 @@
+@import './custom.css';
+@import './custom2.scss';
+
+.test2App1{
+    border:2px solid green;
+    margin: 5px;
+}
+.modal .modal-content .modal-header .close:before {
+    content: '\00d7';
+    font-family: system-ui;
+    color: red;
+    font-size: 26px;
+}
+.row{
+    margin:10px 0;
+}
